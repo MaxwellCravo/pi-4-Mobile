@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/bollha/Projects/minhaRotav3/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6d7550ea8acdeba315d36506f61a24d33f72f426">
+        <dex dex="/home/bollha/Projects/minhaRotav3/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.2.3-debug_428f2aedfac6f7c9538588f8adf1dd063da15b77.jar" />
+    </item>
+
+</items>

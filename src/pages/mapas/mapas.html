@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Mapas
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <ion-list id="mapas-list3">
+    <ion-item id="mapas-toggle3">
+      <ion-label>
+        Edificios Proximos
+      </ion-label>
+      <ion-toggle color="balanced" checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item color="none" id="mapas-list-item13"on-click="goToRotas()">
+      Ricardo Balvé
+    </ion-item>
+    <ion-item color="none" id="mapas-list-item14">
+      Restaurante Central
+    </ion-item>
+    <ion-item color="none" id="mapas-list-item18">
+      Teste
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label fixed>Teste</ion-label>
+    <ion-input type="text" [(ngModel)]="nome"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label fixed>Teste</ion-label>
+    <ion-input type="text" [(ngModel)]="local"></ion-input>
+  </ion-item>
+  <ion-item>
+    <button ion-button color="positive" block on-click="storePredio()">
+      Enviar
+    </button>
+  </ion-item>
+  <ion-item>
+    <button ion-button color="positive" block on-click="getPredio()">
+      Receber
+    </button>
+    </ion-item>
+  <ion-item>
+      <ion-label fixed>Predio</ion-label>
+      <ion-input type="text" [(ngModel)]="nome"></ion-input>
+    </ion-item>
+<ion-content>
